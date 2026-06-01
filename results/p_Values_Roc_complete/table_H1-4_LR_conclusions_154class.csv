@@ -1,0 +1,7 @@
+Experiment,Hypothesis,Sub-hypothesis,Dimension,Test,Statistic,p-value,α (Bonferroni),Decision,Observed,Cohen's h,Effect size,H1-4 supported?
+154-class,H1-4,LR accuracy lowest vs InceptionTime,Accuracy,McNemar's (mid-p),6.961,0.005870707889737196,0.0083,Reject H₀,LR (24.6%) vs InceptionTime (32.4%),0.172,small,YES — LR significantly lower than IT
+154-class,H1-4,LR latency lowest (fastest) vs InceptionTime,Latency,Mann-Whitney U,0.0,2.562143669163401e-34,0.0083,Reject H₀,LR (3.6ms) vs InceptionTime (2.7ms),-1.000 (Cliff's δ),large,IT significantly faster than LR
+154-class,H1-4,LR accuracy lowest vs Random Forest,Accuracy,McNemar's (mid-p),2.824,0.07039422106706225,0.0083,Fail to Reject H₀,LR (24.6%) vs Random Forest (20.4%),-0.101,small,LR higher than Random Forest
+154-class,H1-4,LR latency lowest (fastest) vs Random Forest,Latency,Mann-Whitney U,10000.0,2.562143669163401e-34,0.0083,Reject H₀,LR (3.6ms) vs Random Forest (30.5ms),1.000 (Cliff's δ),large,YES — LR significantly faster
+154-class,H1-4,LR accuracy lowest vs CIF,Accuracy,McNemar's (mid-p),42.750,2.4488215083103315e-12,0.0083,Reject H₀,LR (24.6%) vs CIF (5.8%),0.550,large,CONTRADICTED — LR better than CIF
+154-class,H1-4,LR latency lowest (fastest) vs CIF,Latency,Mann-Whitney U,0.0,2.562143669163401e-34,0.0083,Reject H₀,LR (3.6ms) vs CIF (698.5ms),-1.000 (Cliff's δ),large,YES — LR significantly faster

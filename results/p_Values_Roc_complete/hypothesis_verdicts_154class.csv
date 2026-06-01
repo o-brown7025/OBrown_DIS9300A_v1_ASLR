@@ -1,0 +1,6 @@
+Experiment,Hypothesis,Accuracy test,Latency test,Verdict,Note
+154-class,H0G,Sig,Sig,Reject H0G,Global — 4-model comparison
+154-class,H1-1 (CIF),CIF not best,CIF slowest (expected),Reject H1-1,CIF acc=5.8% vs others — CIF is not best
+154-class,H1-2 (InceptionTime),Confirmed,Rejected (IT actually faster),Partially support H1-2,IT acc=32.4% CIF acc=5.8%
+154-class,H1-3 (Random Forest),"RF<IT: True, RF>CIF: True",RF faster than CIF: True,Partially support H1-3,RF acc=20.4%
+154-class,H1-4 (Logistic Regression),LR lowest acc: False,LR fastest: False,Reject H1-4,LR acc=24.6%

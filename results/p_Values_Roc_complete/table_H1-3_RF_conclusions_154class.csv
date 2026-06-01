@@ -1,0 +1,7 @@
+Experiment,Hypothesis,Sub-hypothesis,Dimension,Test,Statistic,p-value,α (Bonferroni),Decision,Observed,Cohen's h,Effect size,H1-3 supported?
+154-class,H1-3,RF accuracy < InceptionTime,Accuracy,McNemar's (mid-p),17.280,1.4836899336372366e-05,0.0083,Reject H₀,RF (20.4%) vs InceptionTime (32.4%),0.273,medium,YES — RF significantly lower
+154-class,H1-3,RF latency < InceptionTime,Latency,Mann-Whitney U,0.0,2.562143669163401e-34,0.0083,Reject H₀,RF (30.5ms) vs InceptionTime (2.7ms),-1.000 (Cliff's δ),large,NO — RF not faster
+154-class,H1-3,RF accuracy > CIF,Accuracy,McNemar's (mid-p),29.785,6.901424055611063e-09,0.0083,Reject H₀,RF (20.4%) vs CIF (5.8%),0.449,medium,UNEXPECTED — RF significantly better than CIF
+154-class,H1-3,RF latency < CIF,Latency,Mann-Whitney U,0.0,2.562143669163401e-34,0.0083,Reject H₀,RF (30.5ms) vs CIF (698.5ms),-1.000 (Cliff's δ),large,YES — RF significantly faster
+154-class,H1-3,RF vs LR accuracy,Accuracy,McNemar's (mid-p),2.824,0.07039422106706225,0.0083,Fail to Reject H₀,RF (20.4%) vs Logistic Regression (24.6%),-0.101,small,RF lower (informational)
+154-class,H1-3,RF vs LR latency,Latency,Mann-Whitney U,10000.0,2.562143669163401e-34,0.0083,Reject H₀,RF (30.5ms) vs Logistic Regression (3.6ms),1.000 (Cliff's δ),large,RF slower than Logistic Regression (informational)

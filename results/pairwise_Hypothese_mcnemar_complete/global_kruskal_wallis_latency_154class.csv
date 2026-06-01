@@ -1,0 +1,2 @@
+Experiment,Models compared,Kruskal H,p-value,Significant (α=0.05)
+154-class,"InceptionTime, Random Forest, Logistic Regression, CIF",374.0648379052368,9.171120724439595e-81,YES
