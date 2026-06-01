@@ -1,0 +1,2 @@
+Test,Statistic,p-value,df,Significant (α=0.05),Models
+Kruskal-Wallis,373.9602,0.0,3,YES,"InceptionTime,Random Forest,Logistic Regression,CIF"

@@ -1,0 +1,5 @@
+Experiment,Hypothesis,Sub-hypothesis,Dimension,Test,Statistic,p-value,α (Bonferroni),Decision,Observed direction,Cohen's h,Effect size,H1-2 supported?
+154-class,H1-2,InceptionTime accuracy > CIF,Accuracy,McNemar's (mid-p),64.324,5.198609903817747e-18,0.0083,Reject H₀,IT (32.4%) vs CIF (5.8%),0.723,large,YES — IT significantly better
+154-class,H1-2,InceptionTime latency > CIF (H1-2 predicts IT slower),Latency,Mann-Whitney U,0.0,2.562143669163401e-34,0.0083,Reject H₀,IT (2.7ms) vs CIF (698.5ms),-1.000 (Cliff's δ),large,CONTRADICTED — IT actually faster than CIF
+154-class,H1-2,InceptionTime accuracy > Random Forest,Accuracy,McNemar's (mid-p),17.280,1.4836899336372366e-05,0.0083,Reject H₀,IT (32.4%) vs Random Forest (20.4%),0.273,medium,YES — IT significantly better
+154-class,H1-2,InceptionTime accuracy > LR,Accuracy,McNemar's (mid-p),6.961,0.005870707889737196,0.0083,Reject H₀,IT (32.4%) vs Logistic Regression (24.6%),0.172,small,YES — IT significantly better

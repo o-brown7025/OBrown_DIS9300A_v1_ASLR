@@ -1,0 +1,5 @@
+Model,ECE (pooled),Macro Brier,Mean per-class ECE,Calibration quality
+InceptionTime,0.0047,0.0029,0.0071,Excellent
+Random Forest,0.0081,0.0064,0.0096,Excellent
+Logistic Regression,0.0048,0.0027,0.0067,Excellent
+CIF,0.0018,0.0065,0.0077,Excellent

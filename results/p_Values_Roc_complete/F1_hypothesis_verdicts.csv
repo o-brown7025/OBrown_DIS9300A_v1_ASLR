@@ -1,0 +1,6 @@
+Hypothesis,Description,Accuracy test,Latency test,Verdict,Status
+H0G,No significant differences among all 4 classifiers,Cochran Q: N/A,Kruskal H: Sig,REJECT H0G — differences confirmed,reject
+H1-1,CIF highest accuracy AND lowest latency,CIF acc=100.00%  (best),CIF median=1287.0 ms  (NOT fastest),REJECT H1-1 — CIF is WORST on accuracy,reject
+H1-2,IT accuracy > CIF; IT latency > CIF (IT slower),IT=100.00% vs CIF=100.00% → rejected,IT=2.6ms vs CIF=1287.0ms → IT FASTER (contradicted),REJECT H1-2,reject
+H1-3,RF acc: IT > RF > CIF; RF faster than CIF,RF=100.00%  RF<IT:False  RF>CIF:False,RF=30.5ms vs CIF=1287.0ms  RF faster:True,"PARTIAL SUPPORT H1-3 — ordering holds, some conditions unconfirmed",partial
+H1-4,LR lowest accuracy; LR fastest latency,LR=100.00%  lowest:True,LR=3.6ms  fastest:False,REJECT H1-4,reject

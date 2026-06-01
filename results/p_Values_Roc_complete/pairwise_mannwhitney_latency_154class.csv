@@ -1,0 +1,7 @@
+Experiment,Model A,Model B,Median A (ms),Median B (ms),Faster model,MWU statistic,p-value,Sig (α=0.05),Sig (Bonf α=0.0083),Cliff's delta,Effect size
+154-class,InceptionTime,Random Forest,2.6879284660782696,30.476756840096336,InceptionTime,0.0,2.562143669163401e-34,YES,YES,-1.0,large
+154-class,InceptionTime,Logistic Regression,2.6879284660782696,3.5997885914199417,InceptionTime,0.0,2.562143669163401e-34,YES,YES,-1.0,large
+154-class,InceptionTime,CIF,2.6879284660782696,698.4859110597613,InceptionTime,0.0,2.562143669163401e-34,YES,YES,-1.0,large
+154-class,Random Forest,Logistic Regression,30.476756840096336,3.5997885914199417,Logistic Regression,10000.0,2.562143669163401e-34,YES,YES,1.0,large
+154-class,Random Forest,CIF,30.476756840096336,698.4859110597613,Random Forest,0.0,2.562143669163401e-34,YES,YES,-1.0,large
+154-class,Logistic Regression,CIF,3.5997885914199417,698.4859110597613,Logistic Regression,0.0,2.562143669163401e-34,YES,YES,-1.0,large

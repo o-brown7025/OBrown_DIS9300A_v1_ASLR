@@ -1,0 +1,11 @@
+# Auto-generated: files over 50MB skipped (GitHub limit)
+data/npz/ASL_154_train_cif_aug.npz
+data/csv/ASL_signer2_train_aug.csv
+data/csv/ASL_s11_train_aug.csv
+data/csv/ASL_full_test.csv
+data/csv/ASL_reduced_train.csv
+data/csv/ASL_full_train.csv
+
+# Cache
+__pycache__/
+*.pyc

@@ -1,0 +1,5 @@
+Model,Status,Top-1 Accuracy,Top-1 Accuracy_raw,Top-5 Accuracy,Top-5 Accuracy_raw,Precision (mac),Precision (mac)_raw,Recall (mac),Recall (mac)_raw,F1 Macro,F1 Macro_raw,F1 Weighted,F1 Weighted_raw,AUC (macro),AUC (macro)_raw
+InceptionTime,pending,—,,—,,—,,—,,—,,—,,—,
+Random Forest,pending,—,,—,,—,,—,,—,,—,,—,
+Logistic Regression,pending,—,,—,,—,,—,,—,,—,,—,
+CIF,pending,—,,—,,—,,—,,—,,—,,—,
