@@ -1,6 +1,6 @@
 # OBrown_DIS9300A_v1_ASLR
 
-**Dissertation project repository — National University, 2025**  
+**Dissertation project repository — National University, 2025**
 Researcher: O. Brown | Course: DIS 9300
 
 ---
@@ -21,4 +21,4 @@ Researcher: O. Brown | Course: DIS 9300
 
 ---
 
-*Note: Data files over 50MB are excluded from this repo due to GitHub size limits.*
+*Note: Data files over 50MB are excluded due to GitHub size limits.*
