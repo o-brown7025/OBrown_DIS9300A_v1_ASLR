@@ -1,5 +1,0 @@
-Model,n_test,Acc point,Acc CI low,Acc CI high,F1 point,F1 CI low,F1 CI high
-InceptionTime,309,1.0,1.0,1.0,1.0,1.0,1.0
-Random Forest,309,1.0,1.0,1.0,1.0,1.0,1.0
-Logistic Regression,309,1.0,1.0,1.0,1.0,1.0,1.0
-CIF,309,1.0,1.0,1.0,1.0,1.0,1.0

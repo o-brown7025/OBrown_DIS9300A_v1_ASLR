@@ -1,5 +1,0 @@
-Experiment,Model,Classes,Input type,Special conditions,Model size (MB),Mean (ms),Median (ms),Std (ms),Min (ms),Max (ms),P95 (ms),Throughput (FPS)
-154-class,CIF (50 trees),154,timeseries,50 trees · 126 ch · hands only,85.4,10375.89,10375.58,188.67,9960.0,10905.39,10686.29,0.1
-154-class,InceptionTime,154,keras_single,126 ch · 40 frames · hands only · single model,5.8,85.84,83.9,7.29,77.17,110.85,102.55,11.6
-154-class,Random Forest,154,tabular,100 trees · 630 features · hands only,105.4,31.41,31.04,2.46,28.35,42.15,35.38,31.8
-154-class,Logistic Regression,154,tabular,lbfgs · C=1.0 · 630 features · hands only,0.7,3.67,3.58,0.26,3.44,4.66,4.26,272.6

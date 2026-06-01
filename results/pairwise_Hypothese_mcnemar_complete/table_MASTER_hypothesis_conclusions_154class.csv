@@ -1,6 +1,0 @@
-Experiment,Hypothesis,Focal model,Accuracy test,Acc decision,Latency test,Lat decision,Overall verdict,Key finding
-154-class,H0G,All models,Cochran's Q,Reject H₀,Kruskal-Wallis,Reject H₀,H₀G rejected — significant differences exist,Classifiers differ significantly in accuracy and/or speed
-154-class,H1-1,CIF,McNemar's (pairwise),Fail to Reject H₀ (CIF not best),Mann-Whitney U,Reject H₀ (CIF slowest),Reject H1-1 — CIF worst on both accuracy and latency,"CIF acc=5.8%, median latency=698ms"
-154-class,H1-2,InceptionTime,McNemar's vs CIF,Reject H₀ (IT better),Mann-Whitney U vs CIF,Reject H₀ (IT faster — contradicts H1-2),"Partially support H1-2 — acc confirmed, lat contradicted (IT faster)",IT acc=32.4% vs CIF 5.8%; IT=2.7ms vs CIF=698ms
-154-class,H1-3,Random Forest,McNemar's (pairwise),"RF<IT: True, RF>CIF: True",Mann-Whitney U,"Faster than CIF: True, faster than IT: False",Partially support H1-3,"RF acc=20.4%; RF<IT: True, RF>CIF: True; RF faster than CIF: True, faster than IT: False"
-154-class,H1-4,Logistic Regression,McNemar's (pairwise),LR NOT lowest accuracy,Mann-Whitney U,LR not fastest,Reject H1-4,"LR acc=24.6%, median=3.6ms; lowest acc: False, fastest: False"

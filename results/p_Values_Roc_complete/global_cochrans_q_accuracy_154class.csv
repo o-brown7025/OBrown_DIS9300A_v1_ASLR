@@ -1,2 +1,0 @@
-Experiment,Models compared,n_models,n_samples,Cochran Q,p-value,Significant (α=0.05)
-154-class,"InceptionTime, Random Forest, Logistic Regression, CIF",4,309,95.9123595505618,0.0,YES

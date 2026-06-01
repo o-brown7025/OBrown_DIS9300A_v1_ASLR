@@ -1,5 +1,0 @@
-Model,Experiments run,Mean accuracy (%),Accuracy rank,Latency rank (fastest=1),Acc pairwise wins,Acc pairwise losses,Acc non-sig pairs,Avg Cohen h,Lat pairwise wins,Lat pairwise losses,Avg Cliff delta,Hypothesis,Overall verdict
-InceptionTime,1,32.36,1,2,3,0,0,0.390,3,0,1.000,H1-2,H1-2: Partially supported — highest accuracy confirmed; IT also faster than CIF (stronger than hypothesised)
-Random Forest,1,20.39,3,3,1,1,1,0.275,1,2,1.000,H1-3,H1-3: Partially supported — RF < IT accuracy (confirmed); RF > CIF accuracy (contradicted)
-Logistic Regression,1,24.60,2,1,1,1,1,0.275,2,1,1.000,H1-4,H1-4: Partially supported — near-highest efficiency confirmed; not lowest accuracy (CIF is lower)
-CIF,1,5.83,4,4,0,3,0,0.574,0,3,1.000,H1-1,"H1-1: CIF not supported — lowest accuracy, highest latency"

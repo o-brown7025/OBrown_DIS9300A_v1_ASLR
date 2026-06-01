@@ -1,3 +1,0 @@
-Hypothesis,Sub-hypothesis,Dimension,Test,Rationale,Statistic (avg),p-value (avg),α threshold,Decision,Effect size,Interpretation
-H0G,No significant accuracy differences across all 4 models,Accuracy,Cochran's Q,Non-parametric; compares ≥3 classifiers on same test set,Q = 95.912,0.0000,0.05 (global),Reject H₀,—,Significant accuracy differences exist across models
-H0G,No significant latency differences across all 4 models,Latency,Kruskal-Wallis,Non-parametric ANOVA equivalent; latency is right-skewed,H = 374.065,0.0000,0.05 (global),Reject H₀,—,Significant latency differences exist across models

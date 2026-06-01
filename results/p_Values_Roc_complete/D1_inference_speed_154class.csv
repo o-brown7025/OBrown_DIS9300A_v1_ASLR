@@ -1,5 +1,0 @@
-Model,Input type,Special,Classes,Model size (MB),Mean (ms),Median (ms),Std (ms),Min (ms),Max (ms),P95 (ms),Throughput (FPS),Source
-CIF,timeseries,50 trees · 126ch · 40f · hands-only,154,,1275.22,1287.03,90.71,1058.09,1475.49,1411.96,0.8,simulated
-Random Forest,tabular,100 trees · 630 features · hands-only,154,105.4,29.8,29.64,1.22,27.94,35.56,32.26,33.6,live
-Logistic Regression,tabular,lbfgs · C=1.0 · 630 features · hands-only,154,0.7,3.59,3.54,0.12,3.47,4.09,3.83,278.8,live
-InceptionTime,timeseries,5-ensemble · 126ch · 40f · hands-only,154,,2.58,2.6,0.23,2.01,3.24,2.89,386.9,simulated

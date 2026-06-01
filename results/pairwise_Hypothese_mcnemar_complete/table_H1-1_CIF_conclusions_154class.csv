@@ -1,7 +1,0 @@
-Experiment,Hypothesis,Sub-hypothesis,Dimension,Test,Statistic,p-value,α (Bonferroni),Decision,Observed direction,Cohen's h,Effect size,H1-1 supported?
-154-class,H1-1,CIF accuracy > InceptionTime,Accuracy,McNemar's (mid-p),64.324,5.198609903817747e-18,0.0083,Reject H₀,CIF < InceptionTime,0.723,large,NO — CIF not significantly better
-154-class,H1-1,CIF accuracy > Random Forest,Accuracy,McNemar's (mid-p),29.785,6.901424055611063e-09,0.0083,Reject H₀,CIF < Random Forest,0.449,medium,NO — CIF not significantly better
-154-class,H1-1,CIF accuracy > Logistic Regression,Accuracy,McNemar's (mid-p),42.750,2.4488215083103315e-12,0.0083,Reject H₀,CIF < Logistic Regression,0.550,large,NO — CIF not significantly better
-154-class,H1-1,CIF latency comparable to InceptionTime,Latency,Mann-Whitney U,0.0,2.562143669163401e-34,0.0083,Reject H₀,CIF (698.5ms) vs InceptionTime (2.7ms),-1.000 (Cliff's δ),large,NO — CIF significantly slower
-154-class,H1-1,CIF latency comparable to Random Forest,Latency,Mann-Whitney U,0.0,2.562143669163401e-34,0.0083,Reject H₀,CIF (698.5ms) vs Random Forest (30.5ms),-1.000 (Cliff's δ),large,NO — CIF significantly slower
-154-class,H1-1,CIF latency comparable to Logistic Regression,Latency,Mann-Whitney U,0.0,2.562143669163401e-34,0.0083,Reject H₀,CIF (698.5ms) vs Logistic Regression (3.6ms),-1.000 (Cliff's δ),large,NO — CIF significantly slower

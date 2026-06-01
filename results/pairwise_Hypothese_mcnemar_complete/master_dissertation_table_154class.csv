@@ -1,5 +1,0 @@
-Experiment,Model,Hypothesis,Accuracy (%),Macro F1 (%) [95% CI],Global acc test,Global lat test,Min pairwise p (acc),Sig. pairwise pairs,Accuracy conclusion,Latency conclusion
-154-class,InceptionTime,H1-2,32.36,"29.85% [22.02, 30.68]",Cochran Q *,Kruskal H *,0.0000,3,Highest accuracy; H1-2 accuracy prediction confirmed.,Fastest of deep/tree models; H1-2 latency prediction reversed.
-154-class,Random Forest,H1-3,20.39,"17.88% [12.51, 18.56]",Cochran Q *,Kruskal H *,0.0000,2,Second/mid accuracy; H1-3 partially confirmed.,"Faster than CIF, slower than IT/LR; H1-3 efficiency partially confirmed."
-154-class,Logistic Regression,H1-4,24.60,"22.42% [15.80, 23.05]",Cochran Q *,Kruskal H *,0.0000,2,Near-lowest accuracy (above CIF); H1-4 lowest-acc prediction not confirmed.,Near-highest efficiency (tied with IT); H1-4 efficiency prediction confirmed.
-154-class,CIF,H1-1,5.83,"4.31% [2.13, 5.51]",Cochran Q *,Kruskal H *,0.0000,3,Lowest accuracy across all experiments; H1-1 rejected.,Highest latency (258-697x slower than others); H1-1 latency claim rejected.
